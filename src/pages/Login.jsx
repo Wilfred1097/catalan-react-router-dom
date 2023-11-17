@@ -22,7 +22,9 @@ function Login() {
 };
   return (
     <div>
-      <h1>LOGIN</h1>
+      <img className='logo' src="src/assets/react.svg" alt="" />
+      <img className='logo' src="vite.svg" alt="" />
+      <h2>LOGIN</h2>
       <form onSubmit={LoginUser}>
         <label for="username">Username: </label>
         <input type="text"/>

@@ -26,7 +26,9 @@ function Register() {
 
   return (
     <div>
-      <h1>REGISTER</h1>
+      <img className='logo' src="src/assets/react.svg" alt="" />
+      <img className='logo' src="vite.svg" alt="" />
+      <h2>REGISTER</h2>
       <form onSubmit={RegisterUser}>
         <label htmlFor="name">Name: </label>
         <input type="text" id="name"/>
